@@ -1,0 +1,56 @@
+
+
+
+.card img{
+    padding: 54px 0 21px;
+}
+.card h3{
+    @include font(400, 36px, 43px);
+    font-style: normal;
+    padding-bottom: 19px;
+}
+.card p{
+    @include font(400, 24px, 29px);
+    font-style: normal;
+    color: $rgb;    
+}
+.card{
+    &__first{
+        @include sed(flex, 16px);
+        margin-bottom: 16px;
+    }
+    &__betty{
+        @include dim(423px, 321px, 32px);
+        background: #000;
+        padding-left: 50px;
+    }
+    &__adam{
+        @include dim(423px, 321px, 32px);
+        background: #000;
+        padding-left: 50px;
+    }
+    &__marcus{
+        @include dim(423px, 321px, 32px);
+        background: #000;
+        padding-left: 50px;
+    }
+    &__second{
+        @include sed(flex, 16px);
+
+    }
+    &__jessica{
+        @include dim(423px, 364px, 32px);
+        background: #000;
+        padding-left: 50px;
+    }
+    &__scott{
+        @include dim(423px, 364px, 32px);
+        background: #000;
+        padding-left: 50px;        
+    }
+    &__steven{
+        @include dim(423px, 364px, 32px);
+        background: #000;
+        padding-left: 50px;
+    }
+}

@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: 'DM Sans';
+
+
+}
+ul,
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    padding-top: 334px;
+    animation: flicker .5s infinite alternate;     
+}
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 8px #fff,
+      0 0 15px #0fa,
+      0 0 30px #0fa,
+      0 0 40px #0fa,
+      0 0 70px #0fa,
+      0 0 100px #0fa;
+    }
+    20%, 24%, 55% {
+    text-shadow:
+      0 0 1px #fff,
+      0 0 2px #fff,
+      0 0 5px #fff,
+      0 0 11px #0fa,
+      0 0 20px #0fa,
+      0 0 30px #0fa,
+      0 0 55px #0fa,
+      0 0 80px #0fa;
+  }
+}
+
+h2{
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+
+
+  p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+}
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  
+

@@ -1,0 +1,35 @@
+
+.hero{
+    &__text{
+        padding-top: 148px;
+    }
+    &__block{
+        @include sed(flex, 94px);
+        padding-top: 260px;
+    }
+    &__p-first{
+        @include font(400, 18px, 27px);
+        color: $birc;
+        padding:20px 0 25px ;
+        font-style: normal;
+    }
+    &__text h2{
+        @include font(400, 65px, 79px);
+        letter-spacing: 2.88px;
+        padding-bottom: 28px;
+        font-style: normal;
+
+    }
+    &__p-second{
+        @include font(400, 22px, 33px);
+        color: $rgb;
+        font-style: normal;
+    }
+    &__p-three{
+        @include font(400, 22px, 33px);
+        color: $rgb;
+        padding-top: 33px;
+        font-style: normal;
+    }
+}
+

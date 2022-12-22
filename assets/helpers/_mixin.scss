@@ -1,0 +1,23 @@
+@mixin flex($display, $justify, $align) {
+    display:$display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin font($weight, $font, $line ) {
+    font-weight: $weight;
+    font-size: $font;
+    line-height: $line;
+}
+
+@mixin dim($wid, $hei, $rad){
+    width: $wid;
+    height: $hei;
+    border-radius: $rad;
+
+}
+
+@mixin sed($disp, $gap){
+    display: $disp;
+    column-gap: $gap;
+}

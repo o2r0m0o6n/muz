@@ -1,0 +1,48 @@
+.header{
+    &__top{
+        @include flex(flex, space-between,center);
+        padding:43px 0 ;
+        text-align: center;
+    }
+    &__flex{
+        @include sed(flex, 60px);
+    }
+    &__span{
+        @include font(400, 75px, 88px);
+        font-style: normal;
+        letter-spacing: 3.2px;
+    }
+    &__span:hover{
+        line-height: 0.85;
+        border-bottom: 2px $birc solid;
+    }
+    &__flex img{
+        padding-top: 40px;
+    }
+    &__right li:hover{
+        color: $birc;
+    }
+    &__right ul,li{
+        @include sed(flex, 40px);
+    }
+}
+
+
+
+.flex{
+    &__right p{
+        @include font(400, 15px, 24px);
+        letter-spacing: 3.2px;
+        padding-top: 90px;
+        font-style: normal;
+    }
+    &__img{
+        @include sed(flex, 17px);
+    }
+    &__span h1{
+        @include font(700, 80px, 88px);
+        letter-spacing: 3.2px;          
+        font-style: normal;
+    }
+}
+

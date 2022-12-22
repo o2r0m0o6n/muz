@@ -1,0 +1,40 @@
+
+
+
+.footer{
+    &__block{
+        display: flex;
+    }
+    &__inside-left{
+        padding-top: 25px;
+    }
+    &__mid{
+        display: flex;
+    }
+    &__mid li{
+        @include font(400, 17px, 27px);
+        font-style: normal;
+    }
+    &__first__ul{
+        padding-left: 239px;
+    }
+    &__second__ul{
+        padding-left: 146px;
+    }
+    &__rigth{
+        padding-left: 21px;
+        @include sed(flex, 17px);
+        height: 31px;
+    }
+
+    &__teg-li{
+        padding: 10px 0 10px;
+    }
+    &__ul{
+        padding-top: 10px;
+
+    }
+    &__teg-ul{
+        padding: 10px 0 127px;
+    }
+}

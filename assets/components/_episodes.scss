@@ -1,0 +1,359 @@
+
+.episodes{
+    &__but{
+        @include dim(208px, 51px, 6px);
+        @include font(400, 18px, 27px);
+        background: none;
+        margin-top: 31px;
+        background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all .25s ease-in;
+        border: 1px solid #00C6FF;
+        border: 1px  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa solid ; 
+        display: block; 
+        animation: flicker 1.5s infinite alternate;
+        color: #fff;
+    }
+    &__but:hover{
+        background-position: 0 0;
+        color:#fff;
+    }
+    &__h{
+        @include font(400, 64px, 79px);
+        font-style: normal;
+        letter-spacing: 2.88px;
+    }
+    &__sec{
+        @include flex(flex, space-between, center);
+        padding-top: 93px;
+    }
+    &__sec__three{
+        @include sed(flex, 53px);
+        background: #000;
+        margin-top: 64px;
+    }
+
+
+    &__text__three h2{
+        @include font(400, 64px, 70px);
+        letter-spacing: 2.56px;
+        padding: 18px 0 28px;
+    }
+
+    
+    &__sec__two{
+        @include sed(flex, 53px);
+        background: #000;
+        margin-top: 64px;        
+    }
+    &__img__two{
+        padding: 40px 53px 40px 40px;
+    }
+    &__teg-p-two{
+        @include font(400, 17px, 27px);
+        color: $birc;
+        font-style: normal;
+    }
+    &__text__two h2{
+        @include font(400, 64px, 70px);
+        letter-spacing: 2.56px;
+        padding: 18px 0 28px;        
+    }
+    &__teg-foot-p{
+        @include font(400, 22px, 33px);
+        padding-bottom: 18px;
+        color:$rgb;
+        font-style: normal;
+    }
+    &__teg-foot{
+        @include font(400, 22px, 33px);
+        padding-bottom: 18px;
+        color:$rgb;
+        font-style: normal;
+    }
+    &__sec__one{
+        @include sed(flex, 53px);
+        background: #000;
+        margin-top: 64px;   
+    }
+    &__img__one{
+        padding: 40px 53px 40px 40px;
+    }
+    &__one__but{
+        @include font(400, 18px, 27px);
+        @include dim(73px, 27px, 6px);
+        background: $gra;
+        margin-top: 31px;
+        color: #FFFFFF;
+        border: none;
+        font-style: normal;
+        margin: 48px 0;
+    }
+    &__teg-p-one{
+        @include font(400, 17px, 27px);
+        color: $birc;
+        font-style: normal;
+    }
+    &__text__one h2{
+        @include font(400, 64px, 70px);
+        letter-spacing: 2.56px;
+        padding: 18px 0 28px; 
+    }
+    &__teg-foot-one{
+        @include font(400, 22px, 33px);
+        padding-bottom: 18px;
+        color:$rgb;
+        font-style: normal;
+    }
+    &__one-foot-but{
+        @include font(400, 18px, 27px);
+        @include dim(208px, 51px, 6px);
+        background: $birc;
+        margin-top: 31px;
+        color: #FFFFFF;
+        border: none;
+        font-style: normal;
+    }
+    &__img__three{
+        padding: 40px 53px 40px 40px;
+
+    }
+    &__mid__but{
+        @include font(400, 18px, 27px);
+        @include dim(73px, 27px, 6px);
+        background: $gra;
+        margin-top: 31px;
+        color: #FFFFFF;
+        border: none;
+        font-style: normal;
+        margin: 48px 0;       
+    }
+    &__teg-p-three{
+        @include font(400, 17px, 27px);
+        color: $birc;
+        font-style: normal;    
+    }
+    &__foot-p{
+        @include font(400, 22px, 33px);
+        padding-bottom: 18px;
+        color:$rgb;
+        font-style: normal;  
+    }
+    &__foot-but{
+        @include font(400, 18px, 27px);
+        @include dim(208px, 51px, 6px);
+        color: #FFFFFF;
+        font-style: normal;
+        color: #fff;
+        border-radius: 2rem;
+        padding: 0.4em;
+        box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #bc13fe,
+        0 0 0.8rem #bc13fe,
+        0 0 2.8rem #bc13fe,
+        inset 0 0 1.3rem #bc13fe; 
+        animation: pulsate 1.5s infinite ;
+        background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all .25s ease-in;
+        border: 1px solid #00C6FF;
+        border: 1px  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa solid ; 
+        display: block;   
+        overflow: hidden;
+
+        position: relative;
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        text-shadow: 0 100px 0 #FFF,1px 76px 10px #000;
+        color: #FFF;
+        background: $birc;
+         border-right: 2px solid #FFF;
+         border-left: 2px solid #FFF;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;     
+}
+    &__foot-but:hover {
+        text-shadow: 0 50px 0 #FFF, 1px 51px 20px #FFF;
+        height: 51px;
+        background: #222;
+} 
+    &__foot-but:hover{
+        background-position: 0 0;
+        color:#fff;
+    }
+    &__two__but{
+        @include dim(136px, 27px, 6px);
+        @include font(400, 17px, 27px);
+        border: none;
+        background: $gra;
+        font-style: normal;
+        color: #FFFFFF;
+        margin: 48px 0;
+
+    }
+    &__one-foot{
+        @include dim(208px, 51px, 6px);
+        @include font(400, 18px, 27px);
+        background: none;
+        margin-top: 31px;
+        background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all .25s ease-in;
+        border: 1px solid #00C6FF;
+        border: 1px  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa solid ; 
+        display: block;   
+        color: #fff;
+        text-shadow:
+          0 0 1px #fff,
+          0 0 2px #fff,
+          0 0 5px #fff,
+          0 0 11px #0fa,
+          0 0 20px #0fa,
+          0 0 30px #0fa,
+          0 0 55px #0fa,
+          0 0 80px #0fa;
+      }  
+       
+    &__one-foot:hover{
+        background-position: 0 0;
+        color:#fff;
+    }
+}    
+@keyframes pulsate {
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
+    
+    }
+    0% {
+        text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #bc13fe,
+        0 0 45px #bc13fe,
+        0 0 55px #bc13fe,
+        0 0 70px #bc13fe,
+        0 0 80px #bc13fe;
+    
+    }
+}    
+    
+
+
+@keyframes flicker{
+    0%, 
+    18%, 
+    22%, 
+    25%, 
+    53%, 
+    57%, 
+    100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    20%, 24%, 55% {        
+        text-shadow:none;
+    }  
+}
+  
+    
+    
+
+
+a {
+    position: relative;
+    display: inline-block;
+    color: #2196f3;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 0.2s;
+    @include font(400, 18px, 27px);
+    @include dim(208px, 51px, 6px);
+    margin-top: 31px;
+    background: none;
+    text-align: center;
+ 
+}
+a:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+}
+a span {
+    position: absolute;
+    display: block;
+}
+.block__span span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+.block__span span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.block__span span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.block__span span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
