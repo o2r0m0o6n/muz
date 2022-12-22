@@ -1,0 +1,176 @@
+@import "./assets/helpers/variables";
+@import "./assets/helpers/mixin";
+
+
+@import "./assets/components/base";
+@import "./assets/components/classes";
+@import "./assets/components/database";
+
+
+
+@import "./assets/components/header";
+@import "./assets/components/hero";
+@import "./assets/components/episodes";
+
+@import "./assets/components/footer";
+@import "./assets/components/card";
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Oswald&family=Playfair+Display:wght@700&family=Poppins:ital@0;1&family=Raleway:ital,wght@0,100;0,400;1,400&family=Roboto:ital,wght@0,400;1,300&family=Vollkorn:ital@1&display=swap');
+
+
+
+
+
+@media  (max-width:1300px) {
+    .container{
+        width: 1140px;
+        margin-right: 15px;
+
+    }  
+    .database{
+        &__input{
+            width: 45%;
+        }
+        &__input input{
+            width: 100%;
+        }
+    }
+}
+@media only screen and (max-width:1155px) {
+    .container{
+        width:998px ;
+        margin-left: 15px;
+    }
+    .flex{
+        &__left{
+            width: 55em;
+            padding-top: 8%;
+        }
+        &__left img{
+            width: 100%;
+        }
+        &__right h1{
+            font-size: 5em;
+        }
+        
+        &__img{
+            margin-right: 100px;
+        }
+    }
+    .episodes{
+        &__img__three img{
+            width: 20em;
+        }
+        &__text__three h2{
+            font-size: 3em;
+            padding: 8px 0 18px;
+        }
+        &__sec__three{
+            @include sed(flex, 37px)
+        }
+        &__mid__but{
+            margin: 28px 0;
+            display: block;
+        }
+        &__foot-p {
+            font-size: 1em;
+            padding-bottom: 8px;
+            height: 20px;
+        }
+        &__foot-but{
+            margin-top: 80px;
+        }
+
+
+        &__img__two{
+            width: 20em;
+        }
+        &__text__two h2{
+            font-size: 3em;
+            padding: 8px 0 18px;       
+        }
+        &__sec__two{
+            @include sed(flex, 37px)    
+        }
+        &__two__but{
+            margin: 28px 0;
+            display: block;
+        }
+        &__teg-foot-p{
+            font-size: 1.4em;
+            padding-bottom: 8px;
+            height: 20px;
+            padding-bottom: 80px;
+        }
+        a {
+            font-size: 1em;
+        }
+
+
+        &__img__one{
+            width: 20em;
+        }
+        &__text__one h2{
+            font-size: 3em;
+            padding: 8px 0 18px;
+        }
+        &__sec__one{
+            @include sed(flex, 37px)  
+        }
+        &__one-but{
+            margin: 28px 0;
+            display: block;
+        }
+        &__teg-foot{
+            font-size: 1.2em;
+            padding-bottom: 8px;
+            height: 20px;
+            padding-bottom: 80px;
+        }
+
+    }
+    .hero{
+        &__text img{
+            width: 5em;
+        }
+        &__text h2{
+            font-size:4em ;
+        }
+        &__img img{
+            width: 35em;
+            padding-top: 100px
+        }
+        &__block{
+            @include sed(flex, 30px);
+            padding-top: 260px;
+        }
+    }
+    .database__text h2{
+        font-size: 4em;
+    }
+    .database__input input{
+        height: 52px;
+    }
+    .database__input-one{
+        margin-top: 100px;
+    }
+    .card h3{
+        font-size: 1.8em;
+    }
+    .footer{
+        &__block{
+            quotes: quote($string: "qw");
+        }
+        &__rigth{
+            column-gap: 7px
+        }
+        &__first__ul{
+            padding-left: 106px;
+        }
+        
+    }
+}
+
+    
+
+
