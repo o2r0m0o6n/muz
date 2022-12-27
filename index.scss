@@ -1,19 +1,19 @@
-@import "../assets/helpers/variables";
-@import "../assets/helpers/mixin";
+@import "./assets/helpers/variables";
+@import "./assets/helpers/mixin";
 
 
-@import "../assets/components/base";
-@import "../assets/components/classes";
-@import "../assets/components/database";
+@import "./assets/components/base";
+@import "./assets/components/classes";
+@import "./assets/components/database";
 
 
 
-@import "../assets/components/header";
-@import "../assets/components/hero";
-@import "../assets/components/episodes";
+@import "./assets/components/header";
+@import "./assets/components/hero";
+@import "./assets/components/episodes";
 
-@import "../assets/components/footer";
-@import "../assets/components/card";
+@import "./assets/components/footer";
+@import "./assets/components/card";
 
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Oswald&family=Playfair+Display:wght@700&family=Poppins:ital@0;1&family=Raleway:ital,wght@0,100;0,400;1,400&family=Roboto:ital,wght@0,400;1,300&family=Vollkorn:ital@1&display=swap');
 
@@ -158,9 +158,6 @@
         font-size: 1.8em;
     }
     .footer{
-        &__block{
-            quotes: quote($string: "qw");
-        }
         &__rigth{
             column-gap: 7px
         }
@@ -172,5 +169,122 @@
 }
 
     
+@media (max-width:1024px) {
+    .container{
+       max-width:850px;
+       padding-left: 15px;
+
+    }
+    .header{
+        &__right{
+            display: none;
+        }     
+    }
+    .hamburger-menu{
+        display: block;
+    }
+
+    .flex{
+        &__left{
+            width: 6em;
+            padding-top: 100px;
+        }
+        &__right{
+            font-size: 0.6em;
+            padding-bottom: 100px;
+        }
+        &__right p{
+            padding-top: 10px;
+        }
+
+    }
+    .episodes{
+        &__img__three{
+            width: 20em;
+        }
+
+        &__text__three h2{
+            font-size:10px;
+            padding: 5px 10px;
+        }
+    }
+    // .episodes{
+
+
+    //     &__sec{
+    //         column-gap: 20px;
+    //     }
+    //     &__text__three h2{
+    //         font-size: 0.7em;
+    //         padding: 4px 0 10px;
+    //     }
+    //     &__sec__three{
+    //         @include sed(flex, 30px);
+
+    //     }
+    //     &__mid__but{
+    //         margin: 28px 0;
+    //         display: block;
+    //     }
+    //     &__foot-p {
+    //         font-size: 0.7em;
+    //         padding-bottom: 5px;
+    //         height: 10px;
+    //     }
+    //     &__foot-but{
+    //         margin-top: 80px;
+    //     }
+
+
+    //     &__img__two{
+    //         width: 20em;
+    //     }
+    //     &__text__two h2{
+    //         font-size: 3em;
+    //         padding: 8px 0 18px;       
+    //     }
+    //     &__sec__two{
+    //         @include sed(flex, 37px)    
+    //     }
+    //     &__two__but{
+    //         margin: 28px 0;
+    //         display: block;
+    //     }
+    //     &__teg-foot-p{
+    //         font-size: 1.4em;
+    //         padding-bottom: 8px;
+    //         height: 20px;
+    //         padding-bottom: 80px;
+    //     }
+    //     a {
+    //         font-size: 1em;
+    //     }
+
+
+    //     &__img__one{
+    //         width: 20em;
+    //     }
+    //     &__text__one h2{
+    //         font-size: 3em;
+    //         padding: 8px 0 18px;
+    //     }
+    //     &__sec__one{
+    //         @include sed(flex, 37px)  
+    //     }
+    //     &__one-but{
+    //         margin: 28px 0;
+    //         display: block;
+    //     }
+    //     &__teg-foot{
+    //         font-size: 1.2em;
+    //         padding-bottom: 8px;
+    //         height: 20px;
+    //         padding-bottom: 80px;
+    //     }
+
+    // }
+}
+
+
 
 
