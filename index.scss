@@ -36,7 +36,7 @@
         }
     }
 }
-@media only screen and (max-width:1155px) {
+@media screen and (max-width:1140px) {
     .container{
         width:998px ;
         margin-left: 15px;
@@ -168,123 +168,513 @@
     }
 }
 
-    
-@media (max-width:1024px) {
+
+
+@media screen  and (max-width:1024px) {
     .container{
-       max-width:850px;
-       padding-left: 15px;
-
+        width: 868px;
+        margin-left: 10px;
     }
-    .header{
-        &__right{
-            display: none;
-        }     
-    }
-    .hamburger-menu{
-        display: block;
-    }
-
     .flex{
         &__left{
-            width: 6em;
-            padding-top: 100px;
+            width: 45em;
+            padding-top: 10%;
+        }
+        &__left img{
+            width: 100%;
+        }
+        &__right h1{
+            font-size: 3em;
         }
         &__right{
-            font-size: 0.6em;
-            padding-bottom: 100px;
+            padding-bottom: 50px;
         }
-        &__right p{
-            padding-top: 10px;
+        &__img{
+            margin-right: 100px;
         }
-
     }
     .episodes{
-        &__img__three{
-            width: 20em;
-        }
-
         &__text__three h2{
-            font-size:10px;
+            font-size: 2em;
             padding: 5px 10px;
         }
+        &__text__two h2{
+            font-size: 2em;
+            padding: 5px 10px;
+        }
+        &__text__two p{
+            font-size: 1.4em;
+        }
+        &__text__one h2{
+            font-size: 2em;
+            padding: 5px 10px;
+        }
+
     }
-    // .episodes{
-
-
-    //     &__sec{
-    //         column-gap: 20px;
-    //     }
-    //     &__text__three h2{
-    //         font-size: 0.7em;
-    //         padding: 4px 0 10px;
-    //     }
-    //     &__sec__three{
-    //         @include sed(flex, 30px);
-
-    //     }
-    //     &__mid__but{
-    //         margin: 28px 0;
-    //         display: block;
-    //     }
-    //     &__foot-p {
-    //         font-size: 0.7em;
-    //         padding-bottom: 5px;
-    //         height: 10px;
-    //     }
-    //     &__foot-but{
-    //         margin-top: 80px;
-    //     }
-
-
-    //     &__img__two{
-    //         width: 20em;
-    //     }
-    //     &__text__two h2{
-    //         font-size: 3em;
-    //         padding: 8px 0 18px;       
-    //     }
-    //     &__sec__two{
-    //         @include sed(flex, 37px)    
-    //     }
-    //     &__two__but{
-    //         margin: 28px 0;
-    //         display: block;
-    //     }
-    //     &__teg-foot-p{
-    //         font-size: 1.4em;
-    //         padding-bottom: 8px;
-    //         height: 20px;
-    //         padding-bottom: 80px;
-    //     }
-    //     a {
-    //         font-size: 1em;
-    //     }
-
-
-    //     &__img__one{
-    //         width: 20em;
-    //     }
-    //     &__text__one h2{
-    //         font-size: 3em;
-    //         padding: 8px 0 18px;
-    //     }
-    //     &__sec__one{
-    //         @include sed(flex, 37px)  
-    //     }
-    //     &__one-but{
-    //         margin: 28px 0;
-    //         display: block;
-    //     }
-    //     &__teg-foot{
-    //         font-size: 1.2em;
-    //         padding-bottom: 8px;
-    //         height: 20px;
-    //         padding-bottom: 80px;
-    //     }
-
-    // }
+    .hero{
+        &__img{
+            width: 40em;
+        }
+        &__text p{
+            font-size: 20px;
+        }
+        &__block{
+            @include sed(flex, 40px)
+        }
+        &__text h2{
+            font-size: 3em;
+            padding-bottom: 18px;
+        }
+        &__p-three{
+            padding-top: 23px;
+        }
+    }
+    .database{
+        &__text h2{
+            font-size: 45px;
+        }
+    }
+    .card h3{
+        font-size: 25px;
+    }
+    
+    
 }
 
 
 
 
+@media screen  and (max-width:887px) {
+    .container{
+        width: 525px;
+        padding-left: 10px;
+    }
+    .header{
+        &__right{
+            display: none;
+        }
+        &__span{
+            font-size: 1.4em;
+        }
+        &__flex{
+            display: grid;
+        }
+
+    }
+
+    .hamburger-menu{
+        display: block;
+        overflow: hidden;
+    }
+    .flex{
+        &__left{
+            width: 32em;
+            padding-top: 30%;
+        }
+        &__div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__img{
+            margin-top: 50px;
+        }
+        &__span{
+            font-weight: 1000;
+            font-size: 2.2em;
+        }
+
+        &__right h1{
+            position: absolute;
+            padding-bottom: 20%;
+            text-align: center;
+            top: 0;
+            padding-left: 50px;
+            font-weight: 700;
+            font-size: 1.7em;
+            position: absolute;
+            top: -221px;
+            br{
+                display: none;
+            }
+            .br{
+                display: block;
+            }
+            
+        }       
+    }
+    .episodes{
+        &__h{
+            font-size: 1.8em;
+            font-weight: 1000;
+            padding-top: 35px;
+        }
+        &__img__three img{
+            width: 27em;
+        }
+        &__sec__three{
+            display: grid;
+            height: 1050px;
+            margin-bottom: 90px;
+        }
+        &__text__three{
+            padding-left: 40px;
+        }
+        &__text__three h2{
+            font-size: 1.8em;
+            font-weight: 900;
+            padding: 2px;
+        }
+
+
+
+        &__img__two img{
+            width: 27em;
+        }
+        &__sec__two{
+            display: grid;
+            height: 1050px;
+            margin-bottom: 90px;
+        }
+        &__text__two{
+            padding-left: 40px;
+        }
+        &__text__two h2{
+            font-size: 1.8em;
+            font-weight: 900;
+            padding: 2px;
+        }
+
+
+
+        &__img__one img{
+            width: 27em;
+        }
+        &__sec__one{
+            display: grid;
+            height: 1050px;
+            margin-bottom: 90px;
+        }
+        &__text__one{
+            padding-left: 40px;
+        }
+        &__text__one h2{
+            font-size: 1.8em;
+            font-weight: 900;
+            padding: 2px;
+        }
+    }
+    // .hero__block p{
+
+    // }
+    .hero{
+        &__block{
+            display: grid;
+            padding-top: 0;
+            overflow: hidden;
+        }
+        &__img img{
+            width: 524px;
+        }
+    }
+
+    .database{
+        &__block{
+            display: grid;
+        }
+        &__text h2{
+            font-size: 70px;
+        }
+        &__input-one{
+            margin-top:50px;
+        }
+        &__input input{
+            width: 150%;
+            margin-left: 60px;
+        }
+        &__button{
+            margin-left: 60px;
+        }
+    }
+
+
+    .card{
+        &__first{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: grid;
+        }
+        &__first h3{
+            font-size: 1.4em;
+            font-weight: 800;
+
+        }
+        &__betty{
+            width: 210px;
+
+        }
+        &__adam{
+            width: 210px;
+            margin-left: 265px;
+            position: absolute;
+        }
+        &__marcus{
+            width: 210px;
+            margin-top: 10px;
+        }
+        &__second{
+            display: grid;
+        }
+        &__jessica{
+            width: 210px;
+            margin-left: 265px;
+            position: absolute;
+            top: 7388.1px;
+            height: 321px;
+            margin-top: 10px;
+        }
+        &__scott{
+            width: 210px;
+            margin-top: 10px;
+        }
+        &__steven{
+            width: 210px;
+            margin-left: 265px;
+            position: absolute;
+            top: 7736px;
+
+            margin-top: 10px;
+        }
+        &__steven h3{
+            font-size: 1.5em;
+        }
+    }
+
+
+
+
+
+
+
+    .footer{
+        &__img{
+            width: 10em;
+        }
+        &__rigth{
+            position: absolute;
+            top: 530.8em;
+        }
+        &__first__ul{
+            display: none;
+        }
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .container{
+        max-width: 425px;
+        margin-left: 10px;
+    }
+    .flex__left {
+        width: 100%;
+    }
+    .flex__left img{
+        width: 100%;
+    }
+    .flex__right h1{
+        padding-left: 0;
+    }
+    .flex__img{
+        position: relative;
+        left: 50px;
+    }
+    .episodes{
+       &__h{
+        font-size: 1.7em;
+       }
+       &__but{
+        width: 130px;
+
+       }
+       &__img__three img{
+        width: 100%;
+       }
+       &__text__three{
+        margin-bottom: 200px;
+       }
+        &__foot-but{
+            margin-top: 150px;
+        }
+
+
+        &__img__two img{
+            width: 100%;
+           }
+
+           &__img__one img{
+            width: 100%;
+           }
+
+    }
+    .block__span{
+        margin-top: 150px;
+
+    }
+
+    .database{
+        padding-bottom: 600px;
+    }
+    .card{
+        &__steven{
+            position: absolute;
+            left: -185px;
+            top: 8050px;
+            margin-top: 200px;
+        }
+        &__first{
+            margin-left: 60px;
+        }
+        &__second{
+            margin-left: 60px;
+
+        }
+        &__adam{
+            position: absolute;
+            left: -245px;
+            top: 6530px;
+            margin-top: 390px;
+
+            left: -185px;
+
+        }
+        &__jessica{
+            position: absolute;
+            left: -185px;
+            top: 7050px;
+            margin-top: 200px;
+
+        }
+        &__betty{
+            margin-top: 180px;
+        }
+        &__scott{
+            top: 8430px;
+            position: absolute;
+            margin-top: 200px;
+        }
+
+}
+
+    footer{
+        padding-top: 900px;
+    }
+    .footer__rigth{
+        top: 9330px;
+    }
+
+}
+
+@media screen and (max-width:464px) {
+    .container{
+        max-width: 315px;
+    }
+    .flex{
+        &__right h1{
+            font-size: 1.3em;
+        }
+        &__left img{
+            width: 315px;
+            margin-top: 30px;
+        }
+        &__img{
+            position: absolute;
+            top:720px;
+            left:20px;
+        }
+        &__div p{
+            padding: 50px 0;
+    }
+
+    }
+    .episodes{
+        &__but{
+            width: 120px;
+        }
+        &__h{
+            font-size: 1.2em;
+        }
+        &__sec__three{
+            height: 950px;
+        }
+
+        &__img__two img{
+            width: 240px;
+        }
+        &__text__two h2{
+            overflow: hidden;
+            width: 280px;
+
+        }
+        &__sec__two{
+            height: 1050px;
+        }
+        &__teg-foot-p{
+            overflow: hidden;
+            width: 280px;
+        }
+
+
+
+
+
+        &__img__one img{
+            width: 240px;
+        }
+        &__text__one h2{
+            overflow: hidden;
+            width: 280px;
+
+        }
+        &__sec__one{
+            height: 1050px;
+        }
+        &__teg-foot{
+            overflow: hidden;
+            width: 280px;
+        }
+        
+    }
+    .card{
+        &__first {
+            width: 265px;
+        }
+        &__steven{
+            margin-top: 200px;
+        }
+        &__betty{
+            margin-top: 430px;
+        }
+        
+        
+        
+    }
+    .footer__second__ul{
+        overflow: hidden;
+        position: relative;
+        left: -100px;
+
+    }
+    .footer__rigth{
+        display: none;
+    }
+    .database__text h2{
+        font-size: 2.9em;
+    }
+    .body{
+        width: 400px;
+        background: $gra;
+    }
+}
+    
