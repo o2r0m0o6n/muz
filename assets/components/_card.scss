@@ -1,6 +1,9 @@
 
 
 
+
+
+
 .card img{
     padding: 54px 0 21px;
 }
@@ -14,7 +17,13 @@
     font-style: normal;
     color: $rgb;    
 }
+
+
+
+
+
 .card{
+
     &__first{
         @include sed(flex, 16px);
         margin-bottom: 16px;
@@ -54,3 +63,8 @@
         padding-left: 50px;
     }
 }
+
+
+
+
+
