@@ -1,31 +1,31 @@
 
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    color: white;
-    font-family: 'DM Sans';
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+     color: white;
+     font-family: 'DM Sans';
 
 
-}
-ul,
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
+ }
+ ul,
+ li{
+     list-style: none;
+ }
+ a{
+     text-decoration: none; }
 
-h1{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 88px;
-    letter-spacing: 3.2px;
-    padding-top: 334px;
-    animation: flicker .5s infinite alternate;     
-}
+ h1{
+     font-style: normal;
+     font-weight: 400;
+     font-size: 70px;
+     line-height: 88px;
+     letter-spacing: 3.2px;
+     padding-top: 334px;
+     animation: flicker .5s infinite alternate;     
+ }
 @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
     text-shadow:
@@ -96,4 +96,6 @@ h2{
       width: 100%;
     }
   
+
+
 
